@@ -1,0 +1,43 @@
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    width:375px;
+    height: 550px;
+    margin:10px;
+    border-radius: 15px 15px 15px 15px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardImg {
+    width:100%;
+}
+
+.CardTitle {
+    font-size: 27px;
+    color:black;
+}
+
+.CardCity {
+    font-size:20px;
+    color:black;
+    position:relative;
+    bottom: 50px;
+}
+
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width:150px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: royalblue;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    position: relative;
+    bottom:40px;
+  }

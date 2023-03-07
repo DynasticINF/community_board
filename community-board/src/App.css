@@ -1,0 +1,17 @@
+:root {
+  font-family: Avenir;
+  text-align: center;
+  width:100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
